@@ -1,9 +1,9 @@
 .palette-1 {color:rgba(255, 255, 255, 0) !important;background-color:#23232500 !important}
-.palette-1-light {color:#000 !important;background-color:#baa9a9 !important}
-.palette-1-dark {color:#fff !important;background-color:#1b1b22 !important}
+.palette-1-light {color:#000 !important;background-color:#c0c0c0f8 !important}
+.palette-1-dark {color:#fff !important;background-color:#272727ea !important}
 .p1:hover {color:#000 !important;background-color:#baa9a9 !important}
 
-.palette-2 {color:#fff !important;background-color:#15151842 !important}
+.palette-2 {color:#fff !important;background-color:#68686863 !important}
 .palette-2-light {color:#000 !important;background-color:#aea0a0 !important}
 .palette-2-dark {color:#fff !important;background-color:#101013 !important}
 
@@ -12,11 +12,11 @@
 .clickable-container:active {border:0px !important; outline: 0}
 .clickable-container:focus {border:0px !important; outline: 0}
 
-.palette-3 {color:#fff !important;background-color:#ff0000 !important}
+.palette-3 {color:#fff !important;background-color:#f04400 !important}
 .palette-3-light {color:#000 !important;background-color:#ff9999 !important}
 .palette-3-dark {color:#fff !important;background-color:#800000 !important}
 
-.palette-4 {color:#fff !important;background-color:#ff4d00 !important}
+.palette-4 {color:#fff !important;background-color:#f04400 !important}
 .palette-4-light {color:#000 !important;background-color:#ffb899 !important}
 .palette-4-dark {color:#fff !important;background-color:#802600 !important}
 
@@ -37,7 +37,12 @@
 }
 
 .header {
-  padding: 64px;
+  padding: 58px;
+  color:#fff;
+}
+.headertext{
+  color:#fff;
+  padding:0px;
 }
 
 .indcont {
@@ -179,18 +184,25 @@ h5{
   width: 100%;
   height: 100%;
 }
+.centered-vid-row {
+  margin-left:20%;
+  margin-right:20%
+}
+
 @media screen and (max-width: 600px) {
   .vid-container {
     padding-top: 56.25%;
   }
+  .centered-vid-row{
+    margin-left:0%;
+    margin-right:0%
+  }
 }
 
+
+
 body {
-  background-image: url('../images/starbackground-01.png');
-  background-size:cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-color: #cccccc;
+  background-color: #141431;
  }
  
  .carouselbtn {
