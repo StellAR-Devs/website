@@ -179,11 +179,22 @@ h5{
   width: 100%;
   height: 100%;
 }
+.centered-vid-row {
+  margin-left:20%;
+  margin-right:20%
+}
+
 @media screen and (max-width: 600px) {
   .vid-container {
     padding-top: 56.25%;
   }
+  .centered-vid-row{
+    margin-left:0%;
+    margin-right:0%
+  }
 }
+
+
 
 body {
   background-image: url('../images/starbackground-01.png');
