@@ -168,7 +168,8 @@ h5{
 .vid-container {
   position: relative;
   overflow: hidden;
-  padding-top: 28.125%;
+  padding-top: 56.25%;
+
 }
 
 .responsive-iframe {
