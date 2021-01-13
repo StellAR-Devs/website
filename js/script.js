@@ -81,3 +81,18 @@ function slidemodal(current, newmodal) {
     }
   }
 }
+
+function downloadfunc() {
+  var x = document.getElementsByClassName("mySlides");
+  x[0].style.display = "block";
+  x[1].style.display = "none";
+  slideIndex = 1;
+}
+
+function downloadfuncsmall() {
+  myFunction();
+  var x = document.getElementsByClassName("mySlides");
+  x[0].style.display = "block";
+  x[1].style.display = "none";
+  slideIndex = 1;
+}
