@@ -204,7 +204,11 @@ h5{
 body {
   background-color: #141431;
  }
- 
+
  .carouselbtn {
    box-shadow: 0 0 3vw #000
  }
+
+.thegame {
+  background-color: rgba(63, 63, 63, 0.5);
+}
