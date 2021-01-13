@@ -21,7 +21,7 @@
 .palette-4-dark {color:#fff !important;background-color:#802600 !important}
 
 .main-font {
-  font-family: "Avenir Next" !important;
+  font-family: "Avenir Next", Arial, Sans-Serif !important;
 }
 
 .col-1 {
@@ -191,4 +191,8 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-color: #cccccc;
+ }
+ 
+ .carouselbtn {
+   box-shadow: 0 0 3vw #000
  }
