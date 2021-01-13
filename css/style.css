@@ -3,7 +3,7 @@
 .palette-1-dark {color:#fff !important;background-color:#1b1b22 !important}
 .p1:hover {color:#000 !important;background-color:#baa9a9 !important}
 
-.palette-2 {color:#fff !important;background-color:#15151842 !important}
+.palette-2 {color:#fff !important;background-color:#68686863 !important}
 .palette-2-light {color:#000 !important;background-color:#aea0a0 !important}
 .palette-2-dark {color:#fff !important;background-color:#101013 !important}
 
@@ -37,7 +37,12 @@
 }
 
 .header {
-  padding: 64px;
+  padding: 58px;
+  color: white;
+}
+.headertext{
+  color: white;
+  padding:0px;
 }
 
 .indcont {
@@ -186,11 +191,7 @@ h5{
 }
 
 body {
-  background-image: url('../images/starbackground-01.png');
-  background-size:cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-color: #cccccc;
+  background-color: #141431;
  }
  
  .carouselbtn {
